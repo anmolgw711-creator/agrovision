@@ -170,7 +170,7 @@ const LandingPage = ({ onLaunch, isDark, setIsDark }) => {
             <span className="font-bold text-gray-700 dark:text-gray-300">AgriHealth Monitor</span>
           </div>
           <div className={`text-sm ${isDark ? 'text-gray-500' : 'text-gray-500'}`}>
-            © 2024 Green Nepal Initiative. Built for the Hackathon.
+            © 2024 Agri Nepal Initiative. Built for the Hackathon.
           </div>
         </div>
       </footer>

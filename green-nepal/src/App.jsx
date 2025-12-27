@@ -1,8 +1,7 @@
 import React, { useState, Suspense } from 'react';
 import LandingPage from './components/LandingPage.jsx';
 
-// Lazy-load the main app so the landing page can render even if
-// the full app component isn't implemented yet.
+
 const PlantHealthApp = React.lazy(() => import('./PlantHealthApp.jsx'));
 
 const App = () => {
